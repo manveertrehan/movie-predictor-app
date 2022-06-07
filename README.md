@@ -13,7 +13,7 @@
 
 In order to run the model locally, 
 
-1. Download the moviefinder.joblib file from the drive and move it into the movie-predictor-app directory
+1. Download the [moviefinder.joblib](https://drive.google.com/file/d/1IRq2PhIAjCOB2jHiSM5XNzpsPnl83DzQ/view?usp=sharing) file from the drive and move it into the movie-predictor-app directory
 2. cd into the movie-predictor-app directory and run `python app.py`
 3. Open your localhost and have fun!
 <br><br>
