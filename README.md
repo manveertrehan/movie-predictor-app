@@ -19,8 +19,3 @@ In order to run the model locally,
 <br><br>
 
 * Note: *Not all films are included in the dataset, the predictor will only work on some of the most popular films from the 1930's to 2017*
-
-<br>
-Long-form plot information and cast adapted from [Wikipedia Movie Plots](https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots) <br>
-Plot overview and keywords adapted from [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) <br>
-Poster image paths adapted from [Movie Genre from its Poster](https://www.kaggle.com/datasets/neha1703/movie-genre-from-its-poster)
