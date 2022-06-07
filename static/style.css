@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    width: 575px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    background: linear-gradient(black, black), url('https://i.redd.it/4fxxbm4opjd31.jpg');
+    background-size: 100%;
+    background-blend-mode: saturation;
+}
+
+.container {
+    max-width: 800px;
+    background: rgb(255, 255, 255);
+    width: 800px;
+    padding: 25px 10px 10px 10px;
+    box-shadow: 0px 0px 12px rgb(239, 208, 117);
+}
+
+.container .text {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+}
+
+.container form {
+    padding: 30px 0 0 0;
+}
+
+.container form .form-row {
+    display: flex;
+    margin: 32px 0;
+}
+
+#submit {
+    background-color: rgb(239, 208, 117);
+    width: 100px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+#text {
+    color: #000000;
+    padding: 4px;
+}
