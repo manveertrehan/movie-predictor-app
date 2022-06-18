@@ -17,12 +17,12 @@ def return_prediction(model, text):
 
     for i in range(1,len(pr)):
         for j in range(len(pr[i]) - 3):
-            if pr[i][j] == "h" and pr[i][j+1] == "t" and pr[i][j+2] == "t":
+            if pr[i][j:j+4] == "http":
                 pr[i] = pr[i][:j]
                 break
 
     for i in range(len(pr[0])-3):
-        if pr[0][i] == "h" and pr[0][i+1] == "t" and pr[0][i+2] == "t":
+        if pr[0][i:i+4] == "http":
             pr.append(pr[0][i:])
             pr[0] = pr[0][:i]
             break
